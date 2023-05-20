@@ -1,0 +1,8 @@
+package com.todo.servlets;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/signup")
+public class Signup {
+
+}

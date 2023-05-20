@@ -1,0 +1,8 @@
+package com.todo.servlets;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet("/viewtasks")
+public class ViewTaskServlet extends HttpServlet{
+
+}

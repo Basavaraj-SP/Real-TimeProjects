@@ -1,0 +1,123 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #151515;
+    background-image: url(https://images.unsplash.com/photo-1623771702313-39dc4f71d275?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGxpYnJhcnklMjBvbGR8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    
+ 
+}
+.header{
+	width:100%;
+    height: 65px;
+    background-color: black;
+    z-index: 1;
+}
+.list li {
+    display: inline-block;
+    text-decoration: none;
+ 
+}
+.list .links{
+    text-align: center;
+    margin-left: 80px;
+    font-family: Proxima Nova,Arial,sans-serif;
+   
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+    margin: 65px;
+    position: relative;
+    top: -17px;
+
+}
+.header .image{
+    margin-top: 7px;
+    height: 50px;
+    width: 117px;
+    margin-left: 16px;
+}
+.list span{
+    position: relative;
+    color: white;
+    top: -17px;
+    left: 5px;
+    font-size: 31px;
+    font-family: Proxima Nova,Arial,sans-serif;
+}
+.logout{
+    text-decoration:none;
+        margin-top: 8px;
+        margin-left: 70px;
+        border: 2px solid #1fa6fa ;
+        background-color:#1fa6fa ;
+        outline: none;
+        font-family:Proxima Nova,Arial,sans-serif ;
+        font-size: 18px;
+        font-weight: bolder;
+        position: relative;
+        top: 25px;
+        left: 176px;
+         border-radius: 15px;
+         padding: 8px 30px;
+         color: white;
+         transition: 0.3s;
+    }
+
+.content{
+
+	margin-left: 58px;
+	
+}
+table
+{
+    margin: 44px 100px;
+ 
+}
+
+th,td,tr
+{
+padding: 16px 80px;
+text-align: center;
+}
+
+table,th,td,tr,thead,tbody
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+thead
+{
+    color: white;
+    background-color:#363232;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color:whitesmoke;
+    color: black;
+
+}
+
+tbody tr:not(even)
+{
+    background-color: gray;
+    color: black;
+}
+
+.del{
+	text-decoration: none;
+	  color: black;
+}
+
+
+

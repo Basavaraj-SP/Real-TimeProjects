@@ -1,0 +1,22 @@
+package com.todo.servlets;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.todo.dao.ListDAO;
+
+@WebServlet("/update")
+public class UpdateServlet extends HttpServlet {
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String name=req.getParameter("task");
+		String newName=req.getParameter("newtask");
+		ListDAO.update(name,newName);
+		resp.sendRedirect("viewtasks");
+	}
+}

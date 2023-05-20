@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="bookinfo.css">
+<title>Insert Book Details</title>
+</head>
+<body>
+   <form action="bookinfo" method="post">
+        <section class="header">
+        <ul class="list">
+            <li>
+             <span>E-Library</span><img src="image/logo.jpeg" class="image" alt="No image">
+    
+            </li>
+            <li class="links">
+                <a class="anchor" href="adminLogin.html">Home</a>
+            </li>
+            <li class="links">
+                <a  class="anchor"href="bookinfo.html">Add</a>
+            </li>
+            <li class="links">
+                <a  class="anchor"href="viewbookinfo">View</a>
+            </li>
+            <li class="links">
+                <a class="logout" href="adminLogin.html">Logout</a>
+            </li>
+          
+        </ul>    
+        </section>
+        <section class="part">
+            <div class="content">
+            <h1 class="inputs">Id</h1><input type="text" placeholder="Book id" name="id" class="inp">
+            <h1 class="name">Name</h1><input type="text" placeholder="Book Name" name="bname" class="inp">
+            <h1 class="author">Author</h1><input type="text" placeholder="Book Author" name="bauthour" class="inp">
+            <h1 class="yop">Year of Published</h1><input type="text" placeholder="Book yop" name="byop" class="inp">
+            <br>
+            <button type="submit" class="submit">Submit</button>
+         <!--  <h1 class="msg">Added  by:</h1 -->  
+           
+        </div>
+        </section>
+        <footer class="foot">
+            <section class="footer">
+                <h4><em class="note">Note: These files are not availaible for offline </em></h4>
+            </section>
+        </footer>
+        </form>
+        </body>
+</html>

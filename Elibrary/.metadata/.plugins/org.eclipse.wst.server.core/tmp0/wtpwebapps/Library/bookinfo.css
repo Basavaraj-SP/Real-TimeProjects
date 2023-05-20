@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #151515;
+    background-image: url(https://static.india.com/wp-content/uploads/2022/03/books.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+ 
+}
+.logout{
+    text-decoration:none;
+        margin-top: 8px;
+        margin-left: 19px;
+        border: 2px solid #1fa6fa ;
+        background-color:#1fa6fa ;
+        outline: none;
+        font-family:Proxima Nova,Arial,sans-serif ;
+        font-size: 18px;
+        font-weight: bolder;
+        position: relative;
+        top: -18px;
+        left: 176px;
+         border-radius: 15px;
+         padding: 8px 30px;
+         color: white;
+         transition: 0.3s;
+    }
+.header{
+    height: 65px;
+    background-color: black;
+    z-index: 1;
+}
+.list li {
+    display: inline-block;
+    text-decoration: none;
+ 
+}
+.list .links{
+    text-align: center;
+    margin-left: 140px;
+    font-family: Proxima Nova,Arial,sans-serif;
+   
+}
+.list li .anchor{
+    text-decoration: none;
+    color: white;
+    margin: 35px;
+    position: relative;
+    top: -17px;
+
+}
+.header .image{
+    margin-top: 7px;
+    height: 50px;
+    width: 117px;
+    margin-left: 16px;
+}
+.list span{
+    position: relative;
+    color: white;
+    top: -17px;
+    left: 5px;
+    font-size: 31px;
+    font-family: Proxima Nova,Arial,sans-serif;
+}
+.foot{
+position: relative;
+top: 83px;
+}
+ .footer{
+    height: 65px;
+    background-color: black;
+    
+ }
+ .footer .note{
+    color: white;
+    font-size: 25px;
+  position: relative;
+  top: 23px;
+  left: 452px;
+  font-family: Proxima Nova,Arial,sans-serif;
+ }
+
+ .part{
+  height: 500px;
+  width: 1000px;
+    background-color: transparent;
+    border: 20px solid transparent;
+    backdrop-filter: blur(7px);
+    margin-left: 250px;
+    position: relative;
+    top: 44px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 10px #151515;
+ }
+   
+ .part .content .inp{
+    margin-left: 14px;
+    font-family: Proxima Nova,Arial,sans-serif;
+    color: black;
+    padding: 5px 41px;
+    height: 41px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+ }
+ .inputs{
+    display: inline-block;
+  margin-left: 315px;
+  margin-top: 25px;
+  color: whitesmoke;
+ }
+ .msg{
+    display: none;
+    margin-left: 594px;
+    margin-top: 128px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Proxima Nova,Arial,sans-serif;
+ }
+ .name{
+    display: inline-block;
+    margin-left: 282px;
+    margin-top: 25px;
+    color: whitesmoke;
+ }
+ .author{
+    display: inline-block;
+    margin-left: 269px;
+    margin-top: 25px;
+    color: whitesmoke;
+ }
+ .yop{
+    display: inline-block;
+    margin-left: 164px;
+    margin-top: 25px;
+    color: whitesmoke;
+ }
+ .submit{
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 643px;
+    border: 2px solid #1fa6fa ;
+    background-color:#1fa6fa ;
+    outline: none;
+    font-family:Proxima Nova,Arial,sans-serif ;
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    top: 25px;
+    left: -236px;
+     border-radius: 15px;
+     padding: 8px 30px;
+     color: white;
+     transition: 0.3s;
+ }
+ .submit:hover{
+    background-color:#e4e9ec ;
+        border: 2px solid white;
+        color: #1fa6fa;
+ }
+ 
+
+ 

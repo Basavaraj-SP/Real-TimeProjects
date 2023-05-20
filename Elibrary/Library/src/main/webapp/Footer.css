@@ -1,0 +1,24 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.foot{
+	width:100%;
+
+margin-top: 541px;
+}
+ .footer{
+    height: 65px;
+    background-color: black;
+    
+ }
+ .footer .note{
+    color: white;
+    font-size: 25px;
+  position: relative;
+  top: 23px;
+  left: 452px;
+  font-family: Proxima Nova,Arial,sans-serif;
+ }

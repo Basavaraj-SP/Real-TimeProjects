@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    background: url("./beautiful-color-ui-gradients-backgrounds-pinky.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.form{
+    width: 660px;
+    height: 183px;
+    background-color: rgb(230, 222, 222);
+    margin-top: 148px;
+    margin-left: 161px;
+    border-radius: 10px;
+
+
+}
+
+.input{
+    margin-left: 25px;
+    margin-top:25px;
+    width: 600px; 
+    height:50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: black;
+    font-family: Proxima Nova,Arial,sans-serif;
+    text-align: center;
+    outline: 0px;
+
+}
+
+.save{
+    font-family: Proxima Nova,Arial,sans-serif;
+    font-size: 25px;
+   padding: 10px 23px;
+  
+    background-color: rgb(27, 146, 251);
+    color: white;
+  border-radius: 20px;
+  margin-left:136px; 
+ text-align: center;
+ font-weight: bolder;
+ position:relative;
+ top: 32px;
+}
+
+a{
+    font-family: Proxima Nova,Arial,sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+   padding: 10px 23px;
+    background-color: rgb(27, 146, 251);
+    color: white;
+  border-radius: 20px;
+  margin-left:170px; 
+ text-align: center;
+ font-weight: bolder;
+ position:relative;
+ top: 32px; 
+}
+h2, h4{
+    margin-left: 168px;
+    position: relative;
+    top: 110px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: Proxima Nova,Arial,sans-serif;
+    font-weight: 700;
+}
+h4{
+    font-size: 35px; 
+    font-family: Proxima Nova,Arial,sans-serif;
+    font-weight: 500;
+}

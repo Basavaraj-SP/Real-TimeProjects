@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+<link rel="stylesheet" href="TodoLogin.css">
+</head>
+<body>
+	<form action="adminLogin" class="loginform" method="post">
+		<section class="welcomemsg">
+			<h2>To-Do list</h2>
+			<h4>Just do it. </h4>
+		</section>
+		<section class="credentials">
+
+			<h1 class="name">Name</h1>
+			<input type="text" placeholder="Username" name="username"
+			 required class="input"> <br>
+			<h1 class="password">Password</h1>
+			<input type="password" placeholder="Password" name="password"
+				 required class="input"> <br>
+
+			<button type="submit" class="login">Login</button>
+			<a href="signup.html" class="signup">Signup</a>
+		</section>
+	</form>
+</body>
+</html>

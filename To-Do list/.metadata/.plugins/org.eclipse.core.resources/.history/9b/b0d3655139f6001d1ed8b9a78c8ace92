@@ -1,0 +1,25 @@
+package com.todo.dao;
+import java.sql.*;
+
+import com.todo.beans.TodoList;
+public class ListDAO {
+
+	public static void insert(TodoList todo) {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_library", "root",
+					"root");
+			PreparedStatement preparedStatement = connection
+					.prepareStatement("insert into book_info values(?)");
+			preparedStatement.setString(1, todo.getTask());
+			
+			preparedStatement.executeUpdate();
+			connection.close();
+
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+}

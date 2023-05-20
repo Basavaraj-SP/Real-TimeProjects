@@ -1,0 +1,79 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:linear-gradient( rgba(0, 0, 0, 0.599) , rgba(255, 255, 255, 0.023) ) ,
+        url("./To_Do_List.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+.welcomemsg{
+    font-size: 75px;
+    font-weight:300;
+    margin-top: 220px;
+    margin-left: 108px;
+    color: white;
+}
+
+.credentials{
+text-align: center;
+}
+
+.credentials .name {
+color: white;
+display: inline-block;
+margin-left: -657px;
+}
+.credentials .password {
+    color: white;
+    display: inline-block;
+    margin-left: -693px;
+    }
+
+
+    .credentials .input{
+      padding: 5px 41px;
+      height: 41px;
+      text-align: center;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px;
+      color: rgb(6, 5, 5);
+      outline: none;
+      margin: 10px;
+    }
+        .signup{
+        text-decoration:none;
+        margin-top: 8px;
+        margin-left: 70px;
+        border: 2px solid #1fa6fa ;
+        background-color:#1fa6fa ;
+        outline: none;
+        font-family:Proxima Nova,Arial,sans-serif ;
+        font-size: 18px;
+        font-weight: bolder;
+        position: relative;
+        top: 25px;
+        left: -323px;
+         border-radius: 15px;
+         padding: 8px 30px;
+         color: white;
+         transition: 0.3s;
+    }
+    .signup:hover{
+        background-color:#e4e9ec ;
+        border: 2px solid white;
+        color: #1fa6fa;
+    }
+    
+    
